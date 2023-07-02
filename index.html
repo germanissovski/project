@@ -1,116 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<title></title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bookshop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Wix+Madefor+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="its-slider.css">
 </head>
 <body>
-	<header class="header">
-		<div class="header-logo-block">
-			<img class="header-logo-img" src="img/logo.png">
-			<div class="header-logo-text-block">
-				<span class="header-logo-text">Акварель</span>
-			</div>
-		</div>
-		<nav class="nav">
-			<ul class="nav-list">
-				<li class="nav-item">
-					<a class="nav-link nav-link-first" href="">История</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="">Свойства</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="">Материалы</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="">Галерея</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="">Другое</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section class="first-section">
-			<img class="first-section-img" src="img/first.png">
-			<div class="first-section-block flex-col-center">
-				<h1>Акварель</h1>
-				<p>Акваре́ль (фр. aquarelle «водянистая» ← итал. acquarello) — техника изображения и разновидность изобразительного искусства, занимающая переходное положение между живописью и графикой, совмещая их особенности</p>
-				<button>Узнать больше</button>
-			</div>
-		</section>
-		<section class="second-seection">
-			<h2 class="second-section-title">Свойства</h2>
-			<div class="second-section-block flex-row-center">
-				<div class="flex-col-center">
-					<ul class="second-section-rating-list">
-						<li class="second-section-list-el">
-							<h3 class="second-section-block-title">Характеристики</h3>
-						</li>
-						<li class="second-section-list-el">
-							<h4>Непрозрачность</h4>
-							<div class="rating-line">
-								<div class="opasity-rating-line"></div>
-							</div>
-						</li>
-						<li class="second-section-list-el">
-							<h4>Светостойкость</h4>
-							<div class="rating-line">
-								<div class="lightfastness-rating-line"></div>
-							</div>
-						</li>
-						<li class="second-section-list-el">
-							<h4>Сложность</h4>
-							<div class="rating-line">
-								<div class="hard-rating-line"></div>
-							</div>
-						</li>
-					</ul>
-				</div>
-				<div class="second-section-img-block">
-					<div class="circle-block flex-col-center">
-						<img src="img/second.png">
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="third-section">
-			<h2 class="third-section-titie">Видео</h2>
-			<div class="flex-row-center">
-				<iframe class="video-block" width="560" height="315" src="https://www.youtube.com/embed/zkqObx8Z15o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-			</div>
-		</section>
-		<section class="fourth-section">
-			<h2 class="fourth-section-tittle">Галерея</h2>
-			<div class="gallary flex-row-center">
-				<img src="img/fourth-first.png">
-				<img src="img/fourth-second.png">
-				<img src="img/fourth-third.png">
-				<img src="img/fourth-fourth.png">
-				<img src="img/fourth-fifth.png">
-				<img src="img/fourth-sixth.png">
-			</div>
-		</section>
-	</main>
-	<footer class="flex-row-center">
-		<div class="footer-text">
-			<p class="name">Воронина Алиса</p>
-			<p class="text">© 2023. Все права защищены.</p>
-		</div> 
-		<div class="footer-icons flex-row-center">
-			<img class="telegram"src="img/telegram.png">
-			<img class="vk"src="img/vk.png">
-			<img class="discord"src="img/discord.png">
-		</div>
-	</footer>
+    <header>
+        <img src="img/logo.png" alt="" class="logo">
+        <nav>
+            <ul class="list">
+             <li class="list-item">детективы</li>
+             <li class="list-item">драматургия</li>
+             <li class="list-item">приключения</li>
+             <li class="list-item">романы</li>
+             <li class="list-item">поэзия</li>
+             <li class="list-item">комиксы</li>
+            </ul>
+        </nav>
+        <button class="burger-btn">
+            <img src="img/burgrer-menu.png" alt="" class="burger-img">
+        </button>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="first-section-text-block">
+                 <h1 class="first-section-title">Братья Карамазовы</h1>
+                 <h2 class="first-section-name">Достоевский Ф. М.</h2>
+                 <p class="first-section-text">Последний роман Достоевского, вершина его творчества. Загадка, связанная со смертью и кражей, полная накала и страстей любовная история, разворачивающаяся на глазах читателя семейная драма, сложные психологические перипетии, множество вплетенных в основную канву других остросюжетных линий — все это вместилось в роман "Братья Карамазовы", главной проблематикой которого является вопрос о Боге и бессмертии души. А в центре повествования, как всегда у Достоевского, — человек, терзаемый сомнениями, раздираемый страстями, жаждущий любви, власти, денег, мечущийся от добра ко злу и от зла к добру, ищущий свой путь, свою веру, своего Бога.
+                  Роман лег в основу десятков экранизаций — отечественных и зарубежных — и все время становится предметом режиссерских экспериментов.</p>
+                 <p class="first-section-price">Цена: 249₽</p>
+                 <button class="first-section-btn" id="btn" onclick="buy()">В корзину</button>
+            </div>   
+            <img src="img/first-section-img.jpg" alt="" class="first-section-img">
+        </section>
+        <section class="second-section">
+            <h1 class="second-section-title">Другие книги</h1>
+            <div class="itc-slider" data-slider="itc-slider">
+                <div class="itc-slider-wrapper">
+                  <div class="itc-slider-items">
+                    <div class="itc-slider-item">
+                      <div class="card">
+                        <img src="img/book1.jpg" alt="" class="book-img">
+                        <h2 class="book-text">12 стульев</h2>
+                      </div>
+                    </div>
+                    <div class="itc-slider-item">
+                        <div class="card">
+                            <img src="img/book2.jpg" alt="" class="book-img">
+                            <h2 class="book-text">Идиот</h2>
+                          </div>
+                    </div>
+                    <div class="itc-slider-item">
+                        <div class="card">
+                            <img src="img/book3.jpg" alt="" class="book-img">
+                            <h2 class="book-text">Судьба человека</h2>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                <button class="itc-slider-btn itc-slider-btn-prev"></button>
+                <button class="itc-slider-btn itc-slider-btn-next"></button>
+              </div>
+        </section>
+        <section class="third-section">
+          <div class="third-section-block">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A391bd60bbe79932e133150730d40e63ba0a334d0bea6d183bff88b5d72937e92&amp;source=constructor" class="map" frameborder="0"></iframe>
+            <div class="third-section-text">
+              <div class="third-section-tittle-block">
+                <h1 class="third-section-tittle">Контакты </h1>
+                <img src="img/Line.svg" alt="" class="third-section-line">
+              </div>
+              <div class="adress">
+                <img src="img/adress.svg" alt="">
+                <span>Ленинградская ул., с24Г, Химки</span>
+              </div>
+              <div class="time">
+                <img src="img/time.svg" alt="">
+                <span>с 9:00 до 21:00</span>
+              </div><div class="phone">
+                <img src="img/phone.svg" alt="">
+                <span>8(920)2708171, 8(953)9640682</span>
+              </div>
+              <div class="question">
+                <h2 class="question-title">Остались вопросы?</h2>
+                <p class="question-text">Оставьте свой номер и мы свяжемся с вами в ближайшее время</p>
+                <span class="name">Имя</span>
+                <input type="text">
+                <span class="number">Телефон</span>
+                <input type="text">
+                <button class="phone-btn">Заказать звонок</button>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <script src="its-slider.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
